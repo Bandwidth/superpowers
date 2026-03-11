@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  schemaVersion: v1.0.0
+  name: superpowers-location
+  description: Links to additional entities in the superpowers repository.
+  annotations:
+    github.com/project-slug: Bandwidth/superpowers
+spec:
+  targets:
+    - ./component.yaml
